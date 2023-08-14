@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="eventos.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>taller eventos</title>
 </head>
 <body>
-    <p class="button">
-    <button onclick="alertHola()">Saludar</button>
-    </p>
+    <div class="div">
+        <button class="button" onclick="alertHola()">Saludar</button>
+    </div>
     <script>
-    const boton = document.querySelector(".button")
+    const boton=document.querySelector(".button")
     function alertHola() {
         alert ("Hola!")
     }
     </script>
-
-
 </body>
 </html>
