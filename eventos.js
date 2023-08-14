@@ -1,5 +1,5 @@
 const div = document.getElementsByClassName(".div");
 function action() {
-  alert("Hola! Soy el div");
+  alert("Hola!");
 };
 div.addEventListener("click", action());
